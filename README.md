@@ -43,9 +43,17 @@ Financial-fraud-detection-system/
 
 ## Dataset
 
-The dataset used in this project is too large to upload to GitHub.
+The dataset used in this project is too large to upload directly to GitHub.
 
-You can download the dataset from:
-https://www.kaggle.com/
+Download dataset from Google Drive:
+
+[Download Dataset]((https://drive.google.com/file/d/165mOLMNf8XV6wsOjReZZHhWqAeVBUSx_/view?usp=sharing))
 
 After downloading, place the dataset file inside the `data/` folder.
+
+Expected file structure:
+
+```bash
+data/
+└── fraud.csv
+```
