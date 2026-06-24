@@ -57,11 +57,19 @@ Expected file structure:
 data/
 └── fraud.csv
 ```
-## Best Performing Model
+## Results Summary
 
-XGBoost + SMOTE achieved the highest fraud detection recall (~97%)
-while maintaining high overall accuracy.
-## Project Visualizations
+| Model | Fraud Recall | Fraud Precision | F1-Score |
+|---------|---------|---------|---------|
+| Logistic Regression | 0.40 | 0.76 | 0.52 |
+| Logistic Regression + SMOTE | 0.90 | 0.02 | 0.04 |
+| Random Forest + SMOTE | 0.87 | 0.63 | 0.73 |
+| XGBoost + SMOTE | 0.97 | 0.11 | 0.20 |
+
+### Key Findings
+
+- XGBoost + SMOTE achieved the highest fraud recall (~97%).
+- Random Forest + SMOTE achieved the best balance between precision and recall (F1-score ≈ 0.73).
 
 ### Fraud vs Genuine Transactions
 
