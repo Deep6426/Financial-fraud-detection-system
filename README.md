@@ -61,3 +61,16 @@ data/
 
 XGBoost + SMOTE achieved the highest fraud detection recall (~97%)
 while maintaining high overall accuracy.
+## Project Visualizations
+
+### Fraud vs Genuine Transactions
+
+![Fraud vs Genuine](assets/fraud_vs_genuine.png)
+
+### Fraud Transactions by Type
+
+![Fraud by Type](assets/fraud_by_type.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](assets/correlation_heatmap.png)
