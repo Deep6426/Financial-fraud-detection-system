@@ -57,3 +57,7 @@ Expected file structure:
 data/
 └── fraud.csv
 ```
+## Best Performing Model
+
+XGBoost + SMOTE achieved the highest fraud detection recall (~97%)
+while maintaining high overall accuracy.
