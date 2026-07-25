@@ -45,7 +45,7 @@ Financial-fraud-detection-system/
 
 The dataset used in this project is too large to upload directly to GitHub.
 
-### 📥 Download Dataset
+###  Download Dataset
 
 [Click Here to Download Dataset](https://drive.google.com/file/d/165mOLMNf8XV6wsOjReZZHhWqAeVBUSx_/view?usp=sharing)
 
