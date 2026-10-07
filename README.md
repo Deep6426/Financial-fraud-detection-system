@@ -31,14 +31,13 @@ Models were evaluated using metrics particularly relevant to fraud detection:
 - F1-score
 - Confusion Matrix
 - Accuracy
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- XGBoost
-- Imbalanced-learn
-- Jupyter Notebook
+##  Tech Stack
+
+- **Language:** Python
+- **Data Processing:** Pandas, NumPy
+- **Machine Learning:** Scikit-learn, XGBoost
+- **Imbalanced Data Handling:** Imbalanced-learn (SMOTE)
+- **Development Environment:** Jupyter Notebook
 
 ## Project Structure
 
