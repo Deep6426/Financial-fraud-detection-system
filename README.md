@@ -1,6 +1,10 @@
 # Financial Fraud Detection System
 
-Machine Learning based fraud detection system for detecting fraudulent financial transactions using classification algorithms and imbalance handling techniques.
+> Building and evaluating machine learning models for financial fraud detection under severe class imbalance.
+
+This project explores the use of **machine learning for detecting fraudulent financial transactions**, with a focus on data preprocessing, feature engineering, class imbalance handling, and model evaluation.
+
+Multiple classification models are trained and compared, including **Logistic Regression, Random Forest, and XGBoost**, with **SMOTE** used to address the highly imbalanced fraud class.
 
 ## Features
 - Fraud transaction prediction
