@@ -6,21 +6,31 @@ This project explores the use of **machine learning for detecting fraudulent fin
 
 Multiple classification models are trained and compared, including **Logistic Regression, Random Forest, and XGBoost**, with **SMOTE** used to address the highly imbalanced fraud class.
 
-## Features
-- Fraud transaction prediction
-- Data preprocessing and feature engineering
-- SMOTE for class imbalance handling
-- Multiple ML models:
-  - Logistic Regression
-  - Random Forest
-  - XGBoost
-- Model evaluation using:
-  - Accuracy
-  - Precision
-  - Recall
-  - F1-score
-  - Confusion Matrix
+##  Key Components
 
+### Data Preparation
+- Data preprocessing and cleaning
+- Feature engineering for transaction-level data
+- Analysis of fraud vs. genuine transactions
+- Correlation analysis of relevant features
+
+### Handling Class Imbalance
+- Identified the severe imbalance between fraudulent and genuine transactions.
+- Applied **SMOTE (Synthetic Minority Over-sampling Technique)** to improve representation of the minority fraud class.
+
+### Machine Learning Models
+- **Logistic Regression** — baseline classification model
+- **Random Forest** — ensemble-based classification
+- **XGBoost** — gradient boosting-based classification
+
+### Model Evaluation
+Models were evaluated using metrics particularly relevant to fraud detection:
+
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+- Accuracy
 ## Technologies Used
 - Python
 - Pandas
